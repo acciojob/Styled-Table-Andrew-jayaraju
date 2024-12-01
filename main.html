@@ -6,10 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+	 <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        thead {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background-color: #d1e7ff;
+        }
+
+        th {
+            font-size: 1.2em;
+        }
+
+        caption {
+            font-size: 1.5em;
+            margin: 10px 0;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
     <!-- add table here -->
-
+	<table>
+        <caption>Game Statistics</caption>
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Games Played</th>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Win Percentage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alex</td>
+                <td>25</td>
+                <td>18</td>
+                <td>7</td>
+                <td>72%</td>
+            </tr>
+            <tr>
+                <td>Jordan</td>
+                <td>30</td>
+                <td>22</td>
+                <td>8</td>
+                <td>73%</td>
+            </tr>
+            <tr>
+                <td>Taylor</td>
+                <td>20</td>
+                <td>12</td>
+                <td>8</td>
+                <td>60%</td>
+            </tr>
+            <tr>
+                <td>Sam</td>
+                <td>15</td>
+                <td>10</td>
+                <td>5</td>
+                <td>67%</td>
+            </tr>
+        </tbody>
+    </table>
         
 </body>
 </html>
